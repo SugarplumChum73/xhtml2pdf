@@ -1,0 +1,5 @@
+project: xhtml2pdf
+target: convert
+cmds:
+  - cmd: /src/mayhem/fuzz_convert.py
+    libfuzzer: true
