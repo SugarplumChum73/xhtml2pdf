@@ -1,5 +1,6 @@
 project: xhtml2pdf
 target: convert
+testsuite: file://src/mayhem/corpus
 cmds:
   - cmd: /src/mayhem/fuzz_convert.py
     libfuzzer: true
